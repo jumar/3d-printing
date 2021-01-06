@@ -1,0 +1,24 @@
+Settings for temperature tuning form
+_________________________________________________________________________
+
+All changes are marked in the gcode with 'custom' at the end of each line. Open the gcode in a text editor and search for this to your inputs if needed.
+
+
+Bed: 200 x 200 mm
+
+Temperatures:
+Bed: 50 deg C
+Segement E: 205 deg C
+Segement D: 200 deg C
+Segement C: 195 deg C
+Segement B: 190 deg C
+Segement A: 185 deg C
+First Layer: 200 deg C
+
+
+Part Cooling: 100% fan from layer 2
+
+ABL: Probe new mesh at the start of print - G29 (BLtouch,EZABL,etc)
+
+Retraction distance: 12 mm
+Retraction speed: 20 mm/sec
