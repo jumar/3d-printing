@@ -1,0 +1,24 @@
+Settings for retraction tuning form
+_________________________________________________________________________
+
+All changes are marked in the gcode with 'custom' at the end of each line. Open the gcode in a text editor and search for this to your inputs if needed.
+
+
+Bed: 200 x 200 mm
+
+Temperatures:
+Bed: 50 deg C
+Hot end: 200 deg C
+
+
+Part Cooling: 100% fan from layer 2
+
+ABL: Probe new mesh at the start of print - G29 (BLtouch,EZABL,etc)
+
+Segment | Retraction distance | Retraction speed | Extra restart distance | Unretract speed | Z hop
+   F    |          12 mm       |     20 mm/sec    |        -0.4       mm      | 20 mm/sec       |  0 mm
+   E    |          12 mm       |     10 mm/sec    |        -0.3       mm      | 10 mm/sec       |  0 mm
+   D    |          12 mm       |     20 mm/sec    |        -0.2       mm      | 20 mm/sec       |  0 mm
+   C    |          12 mm       |     10 mm/sec    |        -0.1       mm      | 10 mm/sec       |  0 mm
+   B    |          12 mm       |     20 mm/sec    |        0       mm      | 20 mm/sec       |  0 mm
+   A    |          12 mm       |     10 mm/sec    |        0       mm      | 10 mm/sec       |  0 mm
